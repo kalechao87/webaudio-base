@@ -56,7 +56,7 @@ export default (env = defaultEnv) => ({
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
-    // host: '192.168.31.21',
+    host: '192.168.31.21',
     port: 9000
   },
 
